@@ -105,4 +105,4 @@ O padrão MVC é uma abordagem robusta para organização de aplicações, promo
 
 | Versão | Data | Data de Revisão | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | --- | --- | --- | --- | --- | --- | --- |
-| `1.0` | 03/01/2025 | 03/01/2025 | Criação do documento | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) |  |
+| `1.0` | 03/01/2025 | 03/01/2025 | Criação do documento | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [#4](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/4) |
