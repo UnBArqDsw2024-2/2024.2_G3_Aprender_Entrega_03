@@ -83,3 +83,10 @@ O desenvolvimento de microserviços, por exemplo, pode se beneficiar amplamente 
 A adoção dos princípios SOLID na orientação a objetos configura-se como um diferencial significativo para qualquer equipe ou organização que almeje construir sistemas de qualidade. Ao longo deste documento, foi exposto como cada princípio atua em prol da alta coesão, do baixo acoplamento e da capacidade de extensão do código, resultando em projetos mais robustos, modulares e de fácil manutenção.
 
 Como próximos passos, recomenda-se a continuidade de estudos acerca de padrões de projeto (Design Patterns) que, em conjunto com os princípios SOLID, possibilitam a criação de arquiteturas ainda mais elegantes e escaláveis. A adoção de testes de unidade e boas práticas de DevOps também se faz relevante para maximizar os benefícios desses princípios. Em suma, os fundamentos SOLID são um ponto de partida seguro para quem deseja aprimorar a qualidade do software e a maturidade na engenharia de projetos orientados a objetos.
+
+## **Histórico de Versão**
+
+| Versão | Data | Data de Revisão | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | 03/01/2025 | 04/01/2025 | Criação do documento. | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Número do PR](https://chatgpt.com/c/67786e04-1bf8-8007-995f-72b593efd1c0#) |
+| 1.1 | 03/01/2025 | 04/01/2025 | Adicionando exemplos por código e referências bibliográficas. | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Número do PR](https://chatgpt.com/c/67786e04-1bf8-8007-995f-72b593efd1c0#) |
