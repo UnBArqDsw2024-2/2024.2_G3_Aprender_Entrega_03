@@ -8,3 +8,11 @@ A relevância deste tema se intensifica na atual conjuntura, em que as rápidas 
 
 Para embasar esta apresentação, foi utilizada como referência a obra *Orientação a Objetos e SOLID para Ninjas: Projetando Classes Flexíveis*, complementada por artigos especializados em design de software e boas práticas de programação. Essa base bibliográfica possibilita uma exploração consistente dos fundamentos de cada princípio, bem como dos benefícios inerentes à sua aplicação.
 
+## **2. Metodologia**
+
+A estruturação deste documento se deu a partir de uma abordagem qualitativa, por meio da análise de textos de referência e artigos técnicos que discorrem sobre os princípios SOLID. Foram igualmente considerados exemplos de código extraídos e adaptados de projetos reais, permitindo a demonstração prática de cada diretriz no contexto do desenvolvimento de software.
+
+### **2.1 Aplique a metodologia que deseja utilizar**
+
+Partindo do levantamento bibliográfico, buscou-se identificar e correlacionar os conceitos descritos nos livros e artigos com situações cotidianas de projeto. A seguir, promoveu-se uma organização sistemática dos princípios, de modo a explorar detalhadamente cada um e evidenciar como podem ser incorporados nas rotinas de programação. Por fim, a análise de código serviu como estudo de caso, ilustrando a adoção das diretrizes SOLID na resolução de problemas comuns.
+
