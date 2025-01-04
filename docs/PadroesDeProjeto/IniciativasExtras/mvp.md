@@ -28,7 +28,16 @@ O Model é responsável pela lógica de negócio e pelo gerenciamento dos dados 
 - Comunica-se com o banco de dados ou outras fontes de dados externas.
 - Fornece APIs para que os Controladores acessem os dados.
 
+<center>
+<div style="max-width:800px;">
+<figure markdown>
+<font size="3"><p style="text-align: center"><b>Imagem 1 -</b> Exemplo Model</p></font>
+
 ![Exemplo Model](../../assets/exemplo-model.png)
+
+</figure>
+</div>
+</center>
 
 ### **3.2 View**
 
@@ -38,7 +47,16 @@ A View é responsável pela interface do usuário e pela apresentação dos dado
 - É independente da lógica de negócio.
 - Pode incluir templates, arquivos HTML, CSS e JavaScript.
 
+<center>
+<div style="max-width:800px;">
+<figure markdown>
+<font size="3"><p style="text-align: center"><b>Imagem 2 -</b> Exemplo View</p></font>
+
 ![Exemplo View](../../assets/exemplo-view.png)
+
+</figure>
+</div>
+</center>
 
 ### **3.3 Controller**
 
@@ -48,7 +66,18 @@ O Controller é o intermediário entre o Model e a View. Ele:
 - Invoca os métodos do Model para manipular dados.
 - Passa os dados processados para a View.
 
+
+
+<center>
+<div style="max-width:600px;">
+<figure markdown>
+<font size="3"><p style="text-align: center"><b>Imagem 3 -</b> Exemplo Controller</p></font>
+
 ![Exemplo Controller](../../assets/exemplo-controller.png)
+
+</figure>
+</div>
+</center>
 
 ## **4. Benefícios do Padrão MVC**
 
