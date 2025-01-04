@@ -34,7 +34,7 @@ Suponha a necessidade de calcular o salário de funcionários com base em difere
 
 <font size="3"><p style="text-align: center"><b>Imagem 1</b> - Exemplo de código adotando SRP.</p></font>
 
-![Código adotando SRP](/assets/exemplo-SRP.png)
+![Código adotando SRP](../../assets/exemplo-SRP.png)
 
 <font size="3"><p style="text-align: center">Fonte: [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo)</p></font>
 
@@ -58,7 +58,7 @@ No caso da implementação de diferentes tabelas de preços, pode-se empregar in
 
 <font size="3"><p style="text-align: center"><b>Imagem 2</b> - Exemplo de código adotando OCP.</p></font>
 
-![Código adotando OCP](/assets/exemplo-OCP.png)
+![Código adotando OCP](../../assets/exemplo-OCP.png)
 
 <font size="3"><p style="text-align: center">Fonte: [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo)</p></font>
 
@@ -82,7 +82,7 @@ O caso do “Quadrado e Retângulo” exemplifica a violação do LSP. Ao criar 
 
 <font size="3"><p style="text-align: center"><b>Imagem 3</b> - Exemplo de código adotando LSP.</p></font>
 
-![Código adotando LSP](/assets/exemplo-LSP.png)
+![Código adotando LSP](../../assets/exemplo-LSP.png)
 
 <font size="3"><p style="text-align: center">Fonte: [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo)</p></font>
 
@@ -104,7 +104,7 @@ Ao invés de criar uma única interface com métodos de leitura e escrita, pode-
 
 <font size="3"><p style="text-align: center"><b>Imagem 4</b> - Exemplo de código adotando ISP.</p></font>
 
-![Código adotando ISP](/assets/exemplo-ISP.png)
+![Código adotando ISP](../../assets/exemplo-ISP.png)
 
 <font size="3"><p style="text-align: center">Fonte: [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo)</p></font>
 
@@ -128,7 +128,7 @@ A seguir, tem-se o exemplo de um gerador de notas fiscais que realiza uma série
 
 <font size="3"><p style="text-align: center"><b>Imagem 5</b> - Exemplo de código adotando DIP.</p></font>
 
-![Código adotando DIP](/assets/exemplo-DIP.png)
+![Código adotando DIP](../../assets/exemplo-DIP.png)
 
 <font size="3"><p style="text-align: center">Fonte: [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo)</p></font>
 
@@ -162,3 +162,4 @@ Como próximos passos, recomenda-se a continuidade de estudos acerca de padrões
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | 03/01/2025 | 04/01/2025 | Criação do documento. | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [#5](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/5) |
 | 1.1 | 03/01/2025 | 04/01/2025 | Adicionando exemplos por código e referências bibliográficas. | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [#5](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/5) |
+| 1.2 | 04/01/2025 | 04/01/2025 | Ajustando PATH dreferentes as imagens. | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [#5](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/5) |
