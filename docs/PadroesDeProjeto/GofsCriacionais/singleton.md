@@ -81,3 +81,26 @@ Essa estrutura mostra um exemplo simplificado no qual cada *Dashboard* acessa a 
 </figure>
 
 </center>
+
+## **5. Análise e Conclusão**
+
+A aplicação do padrão de projeto *Singleton* em sistemas de *dashboard* de estatísticas globais pode simplificar o controle de dados amplamente utilizados, aumentando a consistência das informações e facilitando a manutenção. Contudo, a adoção desse padrão deve ser cuidadosamente avaliada, pois a centralização de responsabilidades em uma única classe pode gerar problemas de acoplamento, comprometer a testabilidade e infringir princípios de boa arquitetura, como os de *SOLID* e *Clean Architecture*. 
+
+Sendo assim, o *Singleton* não deve ser empregado de forma indiscriminada: em projetos complexos, é aconselhável avaliar outros padrões que possam assegurar modularidade e desacoplamento. No entanto, quando corretamente implementado e alinhado aos objetivos do domínio, o *Singleton* efetivamente cumpre a proposta de fornecer um acesso global a recursos compartilhados e simplificar a coordenação de dados críticos em todo o sistema. Em trabalhos futuros, seria interessante explorar como esse padrão lida com cenários de alto nível de concorrência, avaliando a necessidade de *thread-safety* e outras otimizações.
+
+## **Referências Bibliográficas**
+
+- <a id="REF1" href="#anchor_1">1.</a> Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1995). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
+- <a id="REF2" href="#anchor_2">2.</a> Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
+- <a id="REF3" href="#anchor_3">3.</a> Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall.
+- <a id="REF4" href="#anchor_4">4.</a> Refactoring Guru. Singleton. Disponível em: [https://refactoring.guru/pt-br/design-patterns/singleton](https://refactoring.guru/pt-br/design-patterns/singleton). Acesso em: 24 dez. 2024.
+- <a id="REF5" href="#anchor_5">5.</a> AWS. What is a Log File? - Log Files Explained. Disponível em: [https://aws.amazon.com/what-is/log-files/](https://aws.amazon.com/what-is/log-files/). Acesso em: 24 dez. 2024.
+
+## **Histórico de Versão**
+
+| Versão | Data       | Data de Revisão | Descrição do Documento                         | Autor(es)                                                | Revisor(es)                                       | Detalhes da revisão                                                                                         |
+|-------|------------|-----------------|-------------------------------------------------|----------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| 1.0   | 04/01/2025 | 05/01/2025      | Criação do diagrama UML.                        | [Ana Carolina](https://github.com/CarolCoCe), [Felipe de Oliveira](https://github.com/M0tt1nh4), [Giovanni Alvissus](https://github.com/giovanniacg), [João Artur](https://github.com/joao-artl) | [Eric Silveira](https://github.com/ericbky) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
+| 1.1   | 04/01/2025 | 05/01/2025      | Implementação do código de demonstração.           | [Arthur Alves](https://github.com/Arthrok), [Diego Sousa](https://github.com/DiegoSousaLeite), [Julio Cesar](https://github.com/julio-dourado), [Paulo Henrique](https://github.com/paulomh) | [Eric Silveira](https://github.com/ericbky)  | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
+| 1.2   | 05/01/2025 | 05/01/2025      | Documentação do padrão Singleton.                | [Eric Silveira](https://github.com/ericbky)              |[Gustavo Roberto](https://github.com/gusrberto) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
+
