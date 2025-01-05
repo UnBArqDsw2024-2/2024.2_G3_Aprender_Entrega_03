@@ -37,3 +37,47 @@ A seguir, apresentamos o diagrama UML simplificado que ilustra a interação ent
 </figure>
 
 </center>
+
+### **3.1 Integração com MVC e Relacionamento com SOLID**
+
+Dentro do padrão *MVC*, a classe **EstatisticasGlobais** pode ser encarada como parte do *Model*, uma vez que concentra informações e lógicas de atualização de métricas. Entretanto, deve-se atentar para que o *Singleton* não se transforme em uma “classe deus”, acumulando funcionalidades de controle ou de *view*. Essa segregação de responsabilidades mantém a aderência aos princípios do *SOLID*, particularmente o *Single Responsibility Principle (SRP)*, que prega que uma classe deve ter somente um motivo para mudar. Ademais, o *Singleton* não deve impedir a aplicação do *Open-Closed Principle (OCP)* — no caso de surgirem novas demandas de estatísticas, é importante extender comportamentos sem alterar drasticamente a estrutura atual.
+
+## **4. Demonstração de Código e Exemplificação**
+
+A seguir, apresentamos o código completo em Python que demonstra a implementação do padrão GoF Criacional *Singleton* aplicado à classe **EstatisticasGlobais**, bem como a classe **Dashboard** que a acessa. O método `__new__` assegura que apenas uma instância de **EstatisticasGlobais** seja criada, enquanto cada *dashboard* possui sua própria instância, porém compartilhando a mesma referência para as estatísticas. 
+
+<br>
+
+<center>
+
+<figure markdown>
+
+<font size="3"><p style="text-align: center"><b>Imagem 2</b> - Código relacionado ao GOF Criacional - Singleton.</p></font>
+
+![Código GOF Criacional - Singleton](../../assets/gof-criacional-singleton-code.png)
+
+<font size="3"><p style="text-align: center">Fonte: [Arthur Alves](https://github.com/Arthrok), [Diego Sousa](https://github.com/DiegoSousaLeite), [Julio Cesar](https://github.com/julio-dourado) e [Paulo Henrique](https://github.com/paulomh)</p></font>
+
+</figure>
+
+</center>
+
+<br>
+
+Essa estrutura mostra um exemplo simplificado no qual cada *Dashboard* acessa a mesma instância de **EstatisticasGlobais**. Assim, quando um novo usuário é registrado em um dos *dashboards*, a contagem total de usuários é refletida para todos, evitando inconsistências e o retrabalho de sincronizar várias instâncias. Em termos arquiteturais, esse recurso pode ser benéfico sempre que se deseja compartilhar informações globais, mas recomenda-se cautela para não criar pontos de dependência excessiva em sistemas distribuídos ou em projetos onde a escalabilidade e o isolamento de contexto são prioritários.
+
+<br>
+
+<center>
+
+<figure markdown>
+
+<font size="3"><p style="text-align: center"><b>Imagem 3</b> - Saída do código de demonstração do Singleton.</p></font>
+
+![Saída do código do GOF Criacional - Singleton](../../assets/gof-criacional-singleton-output.png)
+
+<font size="3"><p style="text-align: center">Fonte: [Eric Silveira](https://github.com/ericbky)</p></font>
+
+</figure>
+
+</center>
