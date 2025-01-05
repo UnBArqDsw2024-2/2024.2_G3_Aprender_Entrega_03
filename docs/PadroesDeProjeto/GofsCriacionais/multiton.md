@@ -118,7 +118,9 @@ A implementação do padrão Multiton na classe `Ranking` demonstra uma aplicaç
 
 > 1. GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. **Design patterns: elements of reusable object-oriented software**. Boston: Addison-Wesley Professional, 1995.
 
-> 2. Python Software Foundation. (n.d.). *Python Documentation*. Disponível em: [https://docs.python.org/](https://docs.python.org/). Acesso em: 03 jan. 2025.
+> 2. Medium. *Multiton Pattern*. Disponível em: [https://medium.com/@codechuckle/demystifying-design-patterns-multiton-pattern-859b50638a9f](https://medium.com/@codechuckle/demystifying-design-patterns-multiton-pattern-859b50638a9f). Acesso em: 03 jan. 2025. 
+
+> 3. Python Software Foundation. (n.d.). *Python Documentation*. Disponível em: [https://docs.python.org/](https://docs.python.org/). Acesso em: 03 jan. 2025.
 
 ## **Histórico de Versão**
 
