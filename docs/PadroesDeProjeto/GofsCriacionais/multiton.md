@@ -4,9 +4,9 @@
 
 O padrão de projeto Multiton é uma extensão do Singleton, permitindo a criação de uma única instância para cada chave única. Este documento apresenta a implementação do Multiton aplicada à classe `Ranking` no contexto de um sistema de gerenciamento de competições, onde rankings são identificados por IDs únicos. Também serão discutidos os conceitos, objetivos e vantagens desse padrão, além de uma análise do código e diagrama apresentados.
 
-## **2. Importância**
+## **2. Metodologia**
 
-Para a elaboração deste documento, utilizamos uma abordagem prática baseada na análise de código Python e na interpretação de diagramas UML. As etapas incluíram:
+Para a elaboração deste documento, utilizamos uma abordagem prática baseada na interpretação do nosso [diagrama de classes](https://unbarqdsw2024-2.github.io/2024.2_G3_Aprender_Entrega_02/#/Modelagem/2.1.2.DiagramaClasses). As etapas incluíram:
 
 - Identificar os conceitos fundamentais do padrão Multiton.
 - Implementar o padrão em um cenário prático de rankings.
@@ -18,7 +18,7 @@ O uso do Multiton oferece diversos benefícios, incluindo:
 - **Economia de recursos:** Reduz o consumo de memória ao reutilizar instâncias existentes.
 - **Facilidade de acesso:** Permite recuperar instâncias existentes por meio de uma chave única.
 
-### **2.1 Diagrama**
+### **3 Diagrama**
 
 O projeto consiste em um sistema de gerenciamento de rankings para competições. Cada ranking é identificado por um ID único e armazena uma lista de usuários ranqueados. O padrão Multiton foi escolhido para garantir que cada ranking tenha uma única instância associada ao seu ID.
 
@@ -34,7 +34,7 @@ O projeto consiste em um sistema de gerenciamento de rankings para competições
 </div>
 </center>
 
-## **3. Código**
+## **4. Código**
 
 <center>
 <div style="max-width:850px;">
@@ -48,7 +48,7 @@ O projeto consiste em um sistema de gerenciamento de rankings para competições
 </div>
 </center>
 
-### **3.1 Classe Usuario**
+### **4.1 Classe Usuario**
 
 A classe `Usuario` representa os participantes do ranking. Seus atributos e métodos incluem:
 
@@ -59,7 +59,7 @@ A classe `Usuario` representa os participantes do ranking. Seus atributos e mét
 - **Métodos:**
   - `__repr__`: Retorna uma representação textual do objeto.
 
-### **3.2 Classe Ranking**
+### **4.2 Classe Ranking**
 
 A classe `Ranking` implementa o padrão Multiton, garantindo uma instância única para cada ID de ranking. Seus principais elementos incluem:
 
@@ -76,11 +76,11 @@ A classe `Ranking` implementa o padrão Multiton, garantindo uma instância úni
   - `obterPosicao`: Retorna a posição de um usuário no ranking.
   - `exibirRanking`: Exibe os usuários ranqueados e suas posições.
 
-### **3.3 Relacionamento entre Usuario e Ranking**
+### **4.3 Relacionamento entre Usuario e Ranking**
 
 Conforme o diagrama UML fornecido, o relacionamento entre `Usuario` e `Ranking` é do tipo "1 para muitos", indicando que um usuário pode competir em vários rankings, enquanto cada ranking é associado a múltiplos usuários.
 
-### **3.4 Exemplo de execução do código**
+### **4.4 Exemplo de execução do código**
 
 Aqui um código que exemplifica o funcionamento das classes do código:
 
@@ -110,7 +110,7 @@ Aqui a saída do código acima:
 </div>
 </center>
 
-## **4. Análise e Conclusão**
+## **5. Análise e Conclusão**
 
 A implementação do padrão Multiton na classe `Ranking` demonstra uma aplicação eficiente desse padrão em sistemas que exigem instâncias únicas para chaves específicas. O código fornecido segue boas práticas de programação, garantindo a separação de responsabilidades entre as classes `Usuario` e `Ranking`.
 
