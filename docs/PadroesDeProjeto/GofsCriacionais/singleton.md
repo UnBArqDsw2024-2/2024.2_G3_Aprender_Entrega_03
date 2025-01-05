@@ -16,3 +16,24 @@ A elaboração deste documento seguiu uma metodologia de pesquisa teórico-prát
 
 Para ilustrar o uso das metodologias de análise e design, optou-se pela junção de conceitos de *MVC* e do princípio de inversão de dependência do *SOLID*. Foi estabelecido que a camada de apresentação (interface do usuário) acessaria objetos de domínio (*Model*) cujos dados são centralizados pela classe *Singleton*, evitando redundâncias. Além disso, para alinhar-se ao princípio de responsabilidade única, a classe *Singleton* — denominada **EstatisticasGlobais** — se restringe ao armazenamento e à manipulação de métricas compartilhadas, delegando outras funcionalidades a componentes específicos (por exemplo, *Controllers* e *Views* do *MVC*). Tal decisão visa manter clara a divisão de responsabilidades e a legibilidade do código.
 
+## **3. Modelagem e Contextualização do Singleton no Sistema**
+
+O sistema em discussão oferece *dashboards* personalizados para cada usuário, exibindo estatísticas globais como total de usuários, taxa de acertos média e quantidade total de simulados realizados. A adoção do *Singleton* ocorre na classe **EstatisticasGlobais**, que consolida todos esses indicadores, provendo consistência de dados e eliminando a possibilidade de divergência entre *dashboards*.
+
+A seguir, apresentamos o diagrama UML simplificado que ilustra a interação entre as classes **Dashboard** e **EstatisticasGlobais**. O *Dashboard* pode acessar e atualizar as métricas globais por meio da única instância de **EstatisticasGlobais**, garantindo que qualquer atualização seja refletida para todos os usuários em tempo real.
+
+<br>
+
+<center>
+
+<figure markdown>
+
+<font size="3"><p style="text-align: center"><b>Imagem 1</b> - Diagrama relacionado ao GOF Criacional - Singleton.</p></font>
+
+![Diagrama GOF Criacional - Singleton](../../assets/gof-criacional-singleton.png)
+
+<font size="3"><p style="text-align: center">Fonte: [Ana Carolina](https://github.com/CarolCoCe), [Felipe de Oliveira](https://github.com/M0tt1nh4), [Giovanni Alvissus](https://github.com/giovanniacg) e [João Artur](https://github.com/joao-artl).</p></font>
+
+</figure>
+
+</center>
