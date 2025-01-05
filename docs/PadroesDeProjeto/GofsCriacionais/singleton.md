@@ -93,8 +93,8 @@ Sendo assim, o *Singleton* não deve ser empregado de forma indiscriminada: em p
 - <a id="REF1" href="#anchor_1">1.</a> Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1995). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 - <a id="REF2" href="#anchor_2">2.</a> Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
 - <a id="REF3" href="#anchor_3">3.</a> Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall.
-- <a id="REF4" href="#anchor_4">4.</a> Refactoring Guru. Singleton. Disponível em: [https://refactoring.guru/pt-br/design-patterns/singleton](https://refactoring.guru/pt-br/design-patterns/singleton). Acesso em: 24 dez. 2024.
-- <a id="REF5" href="#anchor_5">5.</a> AWS. What is a Log File? - Log Files Explained. Disponível em: [https://aws.amazon.com/what-is/log-files/](https://aws.amazon.com/what-is/log-files/). Acesso em: 24 dez. 2024.
+- <a id="REF4" href="#anchor_4">4.</a> Refactoring Guru. Singleton. Disponível em: [https://refactoring.guru/pt-br/design-patterns/singleton](https://refactoring.guru/pt-br/design-patterns/singleton). Acesso em: 05 jan. 2025.
+- <a id="REF5" href="#anchor_5">5.</a> AWS. What is a Log File? - Log Files Explained. Disponível em: [https://aws.amazon.com/what-is/log-files/](https://aws.amazon.com/what-is/log-files/). Acesso em: 05 jan. 2025.
 
 ## **Histórico de Versão**
 
