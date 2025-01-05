@@ -1,0 +1,18 @@
+# **Documento de Padrão de Projeto GoF Criacional - Singleton**
+
+## **1. Introdução**
+
+Este documento apresenta o uso do padrão de projeto GoF criacional *Singleton* no contexto de um sistema que gerencia diversos *dashboards* para usuários e suas estatísticas globais. O *Singleton* se destaca por garantir que apenas uma única instância de determinada classe seja criada durante todo o ciclo de vida da aplicação, oferecendo um ponto de acesso global a recursos compartilhados. No caso em questão, essa abordagem assegura que os dados de estatísticas globais, como quantidade de usuários e taxa de acertos média, sejam consistentes em todos os *dashboards* e manipulados de forma centralizada.
+
+A relevância teórica e prática desse padrão pode ser observada em diferentes perspectivas. Sob a ótica do *Model-View-Controller (MVC)*, em aplicações de grande porte é comum ter um controlador ou gerenciador centralizado que coordena recursos utilizados por várias *views* e modelos. Embora o *Singleton* não seja parte integrante do *MVC*, ele pode fornecer suporte quando existe a necessidade de instanciar apenas um objeto responsável por agrupar dados amplamente acessados pela aplicação. Ademais, do ponto de vista dos princípios *SOLID* — sobretudo o *Single Responsibility Principle (SRP)* e o *Open-Closed Principle (OCP)* — o *Singleton* pode ser benéfico se utilizado com cautela, evitando que ele se torne um ponto de acoplamento excessivo ou de múltiplas responsabilidades. Por outro lado, a adoção inadequada do *Singleton* pode infringir princípios de *Clean Architecture*, discutidos por Robert C. Martin (2017), se a classe única centralizar demasiadas lógicas de negócio.
+
+Como base para o desenvolvimento, foram consideradas as proposições teóricas de Gamma, Helm, Johnson e Vlissides (1995), popularmente conhecidos como Gang of Four (GoF), que definiram o *Singleton* como um dos padrões de projeto criacionais mais relevantes. Também foram consultadas referências contemporâneas, como o repositório *Refactoring Guru*, que elabora exemplos práticos e discute aspectos positivos e negativos do *Singleton*, bem como o uso de padrões arquiteturais modernos para assegurar escalabilidade e alta coesão no desenvolvimento de aplicações (*FOWLER*, 2002). Neste documento, descrevemos como essa abordagem foi aplicada especificamente na classe **EstatisticasGlobais**, responsável por gerenciar dados críticos do sistema de *dashboards*.
+
+## **2. Metodologia**
+
+A elaboração deste documento seguiu uma metodologia de pesquisa teórico-prática que envolveu a coleta de informações sobre o padrão *Singleton* em literatura especializada e em portais de referência da indústria de software. Em seguida, realizou-se a modelagem UML do cenário para evidenciar onde o padrão se encaixa e, por fim, implementou-se o *Singleton* em linguagem Python, validando seu funcionamento com testes e estudos de caso.
+
+### **2.1 Aplique a metodologia que deseja utilizar**
+
+Para ilustrar o uso das metodologias de análise e design, optou-se pela junção de conceitos de *MVC* e do princípio de inversão de dependência do *SOLID*. Foi estabelecido que a camada de apresentação (interface do usuário) acessaria objetos de domínio (*Model*) cujos dados são centralizados pela classe *Singleton*, evitando redundâncias. Além disso, para alinhar-se ao princípio de responsabilidade única, a classe *Singleton* — denominada **EstatisticasGlobais** — se restringe ao armazenamento e à manipulação de métricas compartilhadas, delegando outras funcionalidades a componentes específicos (por exemplo, *Controllers* e *Views* do *MVC*). Tal decisão visa manter clara a divisão de responsabilidades e a legibilidade do código.
+
