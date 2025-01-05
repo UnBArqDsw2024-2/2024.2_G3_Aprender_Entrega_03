@@ -35,6 +35,7 @@ O Model é responsável pela lógica de negócio e pelo gerenciamento dos dados 
 
 ![Exemplo Model](../../assets/exemplo-model.png)
 
+<font size="3"><p style="text-align: center">Fonte: [Gustavo Melo](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS)</p></font>
 </figure>
 </div>
 </center>
@@ -54,6 +55,7 @@ A View é responsável pela interface do usuário e pela apresentação dos dado
 
 ![Exemplo View](../../assets/exemplo-view.png)
 
+<font size="3"><p style="text-align: center">Fonte: [Gustavo Melo](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS)</p></font>
 </figure>
 </div>
 </center>
@@ -75,6 +77,7 @@ O Controller é o intermediário entre o Model e a View. Ele:
 
 ![Exemplo Controller](../../assets/exemplo-controller.png)
 
+<font size="3"><p style="text-align: center">Fonte: [Gustavo Melo](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS)</p></font>
 </figure>
 </div>
 </center>
@@ -105,4 +108,5 @@ O padrão MVC é uma abordagem robusta para organização de aplicações, promo
 
 | Versão | Data | Data de Revisão | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | --- | --- | --- | --- | --- | --- | --- |
-| `1.0` | 03/01/2025 | 03/01/2025 | Criação do documento | [Gustavo Roberto](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [#4](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/4) |
+| `1.0` | 03/01/2025 | 03/01/2025 | Criação do documento | [Gustavo Melo](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [#4](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/4) |
+| `1.1` | 05/01/2025 | 05/01/2025 | Adicionando referências e fontes imagens | [Gustavo Melo](https://github.com/gusrberto) e [Danilo Naves](https://github.com/DaniloNavesS) | [Eric Silveira](https://github.com/ericbky) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [#4](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/4) |
