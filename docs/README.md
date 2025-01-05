@@ -15,7 +15,7 @@
 | 221022266   | [Eric Silveira](https://github.com/ericbky)          | <img src="https://avatars.githubusercontent.com/ericbky" width="100">         |
 | 221031158   | [Felipe de Oliveira](https://github.com/M0tt1nh4)    | <img src="https://avatars.githubusercontent.com/M0tt1nh4" width="100">        |
 | 211043647   | [Giovanni Alvissus](https://github.com/giovanniacg)  | <img src="https://avatars.githubusercontent.com/giovanniacg" width="100">     |
-| 211039457   | [Gustavo Roberto](https://github.com/gusrberto)      | <img src="https://avatars.githubusercontent.com/gusrberto" width="100">       |
+| 211039457   | [Gustavo Melo](https://github.com/gusrberto)         | <img src="https://avatars.githubusercontent.com/gusrberto" width="100">       |
 | 221031185   | [João Artur](https://github.com/joao-artl)           | <img src="https://avatars.githubusercontent.com/joao-artl" width="100">       |
 | 211030809   | [Julio Cesar](https://github.com/julio-dourado)      | <img src="https://avatars.githubusercontent.com/julio-dourado" width="100">   |
 | 221022669   | [Luiz Gustavo](https://github.com/LuizGust4vo)       | <img src="https://avatars.githubusercontent.com/LuizGust4vo" width="100">     |

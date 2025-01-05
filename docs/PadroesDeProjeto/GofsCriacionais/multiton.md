@@ -1,8 +1,8 @@
-# **Multiton**
+# **Documento de Padrão de Projeto GoF Criacional - Multiton**
 
 ## **1. Introdução**
 
-O padrão de projeto Multiton é uma extensão do Singleton, permitindo a criação de uma única instância para cada chave única. Este documento apresenta a implementação do Multiton aplicada à classe `Ranking` no contexto de um sistema de gerenciamento de competições, onde rankings são identificados por IDs únicos. Também serão discutidos os conceitos, objetivos e vantagens desse padrão, além de uma análise do código e diagrama apresentados.
+O padrão de projeto Multiton é uma extensão do Singleton, permitindo a criação de uma única instância para cada chave única. Este documento apresenta a implementação do Multiton aplicada à classe `Ranking` no contexto de um sistema de gerenciamento de ranqueamento dos usuários na plataforma, onde rankings são identificados por IDs únicos. Também serão discutidos os conceitos, objetivos e vantagens desse padrão, além de uma análise do código e diagrama apresentados.
 
 ## **2. Metodologia**
 
@@ -18,9 +18,9 @@ O uso do Multiton oferece diversos benefícios, incluindo:
 - **Economia de recursos:** Reduz o consumo de memória ao reutilizar instâncias existentes.
 - **Facilidade de acesso:** Permite recuperar instâncias existentes por meio de uma chave única.
 
-### **3 Diagrama**
+## **3. Diagrama**
 
-O projeto consiste em um sistema de gerenciamento de rankings para competições. Cada ranking é identificado por um ID único e armazena uma lista de usuários ranqueados. O padrão Multiton foi escolhido para garantir que cada ranking tenha uma única instância associada ao seu ID.
+O diagrama foca na parte do sistema de gerenciamento de rankings para os simulados. Cada ranking é identificado por um ID único e armazena uma lista de usuários ranqueados. O padrão Multiton foi escolhido para garantir que cada ranking tenha uma única instância associada ao seu ID.
 
 <center>
 <div style="max-width:800px;">
@@ -122,6 +122,8 @@ A implementação do padrão Multiton na classe `Ranking` demonstra uma aplicaç
 
 ## **Histórico de Versão**
 
-| Versão | Data | Data de Revisão | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
-| --- | --- | --- | --- | --- | --- | --- |
-| `1.0` | 05/01/2025 | 05/01/2025 | Criação do documento | [Gustavo Melo](https://github.com/gusrberto) e [Eric Silveira](https://github.com/ericbky) | [Danilo Naves](https://github.com/DaniloNavesS) e [Luiz Gustavo](https://github.com/LuizGust4vo) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7) |
+| Versão | Data       | Data de Revisão | Descrição do Documento                         | Autor(es)                                                | Revisor(es)                                       | Detalhes da revisão                                                                                         |
+|-------|------------|-----------------|-------------------------------------------------|----------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| `1.0`   | 04/01/2025 | 05/01/2025      | Criação do diagrama UML.                        | [Ana Carolina](https://github.com/CarolCoCe), [Felipe de Oliveira](https://github.com/M0tt1nh4), [Giovanni Alvissus](https://github.com/giovanniacg), [João Artur](https://github.com/joao-artl) | [Gustavo Melo](https://github.com/gusrberto) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
+| `1.1`   | 04/01/2025 | 05/01/2025      | Implementação do código de demonstração.           | [Arthur Alves](https://github.com/Arthrok), [Diego Sousa](https://github.com/DiegoSousaLeite), [Julio Cesar](https://github.com/julio-dourado), [Paulo Henrique](https://github.com/paulomh) | [Gustavo Melo](https://github.com/gusrberto)  | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
+| `1.2`   | 05/01/2025 | 05/01/2025      | Documentação do padrão Multiton.                | [Gustavo Melo](https://github.com/gusrberto)              | [Danilo Naves](https://github.com/DaniloNavesS) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
