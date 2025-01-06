@@ -40,6 +40,8 @@ O diagrama foca na parte do sistema de gerenciamento de rankings para os simulad
 
 ## **4. Código**
 
+[Veja o código na íntegra](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/blob/main/src/criacionais/multiton-ranking.py)
+
 <center>
 <div style="max-width:850px;">
 <figure markdown>

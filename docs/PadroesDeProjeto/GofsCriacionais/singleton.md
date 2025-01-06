@@ -69,6 +69,8 @@ Dentro do padrão *MVC*, a classe **EstatisticasGlobais** pode ser encarada como
 
 A seguir, apresentamos o código completo em Python que demonstra a implementação do padrão GoF Criacional *Singleton* aplicado à classe **EstatisticasGlobais**, bem como a classe **Dashboard** que a acessa. O método `__new__` assegura que apenas uma instância de **EstatisticasGlobais** seja criada, enquanto cada *dashboard* possui sua própria instância, porém compartilhando a mesma referência para as estatísticas. 
 
+[Veja o código na íntegra](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/blob/main/src/criacionais/singleton-dashboard-estatisticaglobal.py)
+
 <br>
 
 <center>

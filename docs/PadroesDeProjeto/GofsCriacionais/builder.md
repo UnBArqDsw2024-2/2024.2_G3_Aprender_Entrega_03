@@ -33,6 +33,8 @@ No contexto do nosso projeto, o uso do padrão de projeto Builder foi fundamenta
 
 Abaixo está detalhado o código da implementação do padrão GoF Criacional **Builder**
 
+[Veja o código na íntegra](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/blob/main/src/criacionais/builder-simulado.py)
+
 <center>
 <div style="max-width:600px;">
 <figure markdown>
