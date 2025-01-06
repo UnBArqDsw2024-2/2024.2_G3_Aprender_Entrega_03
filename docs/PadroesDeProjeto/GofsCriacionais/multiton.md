@@ -2,7 +2,11 @@
 
 ## **1. Introdução**
 
-O padrão de projeto Multiton é uma extensão do Singleton, permitindo a criação de uma única instância para cada chave única. Este documento apresenta a implementação do Multiton aplicada à classe `Ranking` no contexto de um sistema de gerenciamento de ranqueamento dos usuários na plataforma, onde rankings são identificados por IDs únicos. Também serão discutidos os conceitos, objetivos e vantagens desse padrão, além de uma análise do código e diagrama apresentados.
+A evolução constante das aplicações de software demanda soluções mais flexíveis para gerenciar recursos e informações compartilhadas. Enquanto o padrão Singleton limita-se a garantir apenas uma instância única de uma classe, o Multiton expande esse conceito ao permitir a criação de diferentes instâncias de acordo com chaves específicas, fornecendo maior flexibilidade e controle em cenários com múltiplas entidades semelhantes.
+
+Neste documento, detalhamos a aplicação do Multiton à classe `Ranking`, empregada na plataforma para gerenciar o ranqueamento de usuários. Cada ranking é identificado por um ID único, assegurando que apenas uma instância exista para cada chave. Serão discutidos os princípios fundamentais do Multiton, seus objetivos no contexto do sistema de ranqueamento, e as vantagens observadas na prática, reforçados por um diagrama UML, trechos de código exemplificativos e uma análise final da implementação.
+
+Essa abordagem proporciona não apenas um controle centralizado de cada ranking, mas também otimiza recursos ao evitar a criação de múltiplos objetos redundantes. Assim, o Multiton cumpre um papel fundamental em cenários nos quais a coexistência de múltiplas instâncias organizadas por chave se mostra imprescindível, trazendo clareza e eficiência ao projeto.
 
 ## **2. Metodologia**
 
@@ -129,3 +133,4 @@ A implementação do padrão Multiton na classe `Ranking` demonstra uma aplicaç
 | `1.0`   | 04/01/2025 | 05/01/2025      | Criação do diagrama UML.                        | [Ana Carolina](https://github.com/CarolCoCe), [Felipe de Oliveira](https://github.com/M0tt1nh4), [Giovanni Alvissus](https://github.com/giovanniacg), [João Artur](https://github.com/joao-artl) | [Gustavo Melo](https://github.com/gusrberto) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
 | `1.1`   | 04/01/2025 | 05/01/2025      | Implementação do código de demonstração.           | [Arthur Alves](https://github.com/Arthrok), [Diego Sousa](https://github.com/DiegoSousaLeite), [Julio Cesar](https://github.com/julio-dourado), [Paulo Henrique](https://github.com/paulomh) | [Gustavo Melo](https://github.com/gusrberto)  | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
 | `1.2`   | 05/01/2025 | 05/01/2025      | Documentação do padrão Multiton.                | [Gustavo Melo](https://github.com/gusrberto)              | [Danilo Naves](https://github.com/DaniloNavesS) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
+| `1.3`   | 05/01/2025 | - | Refinamento da introdução | [Giovanni Alvissus](https://github.com/giovanniacg) | - | - |

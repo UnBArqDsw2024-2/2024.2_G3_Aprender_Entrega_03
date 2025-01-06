@@ -8,9 +8,32 @@ A relevância teórica e prática desse padrão pode ser observada em diferentes
 
 Como base para o desenvolvimento, foram consideradas as proposições teóricas de Gamma, Helm, Johnson e Vlissides (1995), popularmente conhecidos como Gang of Four (GoF), que definiram o *Singleton* como um dos padrões de projeto criacionais mais relevantes. Também foram consultadas referências contemporâneas, como o repositório *Refactoring Guru*, que elabora exemplos práticos e discute aspectos positivos e negativos do *Singleton*, bem como o uso de padrões arquiteturais modernos para assegurar escalabilidade e alta coesão no desenvolvimento de aplicações (*FOWLER*, 2002). Neste documento, descrevemos como essa abordagem foi aplicada especificamente na classe **EstatisticasGlobais**, responsável por gerenciar dados críticos do sistema de *dashboards*.
 
+
 ## **2. Metodologia**
 
-A elaboração deste documento seguiu uma metodologia de pesquisa teórico-prática que envolveu a coleta de informações sobre o padrão *Singleton* em literatura especializada e em portais de referência da indústria de software. Em seguida, realizou-se a modelagem UML do cenário para evidenciar onde o padrão se encaixa e, por fim, implementou-se o *Singleton* em linguagem Python, validando seu funcionamento com testes e estudos de caso.
+A construção deste documento pautou-se em uma **abordagem teórico-prática**, combinando revisão bibliográfica, modelagem UML e prototipagem de código para ilustrar o uso do padrão *Singleton* no contexto de um sistema de *dashboards*. As etapas desenvolvidas foram:
+
+1. **Levantamento Teórico**  
+   - Consulta a obras especializadas e portais de referência que descrevem o padrão *Singleton* e sua aplicação em diversos cenários.  
+   - Análise dos fundamentos de *Model-View-Controller (MVC)* e dos princípios de *SOLID*, com atenção especial aos cuidados necessários para evitar o uso inadequado do *Singleton*.
+
+2. **Modelagem UML**  
+   - Elaboração de diagramas para evidenciar a interação entre as classes responsáveis pelo gerenciamento de estatísticas (representadas pelo *Singleton*) e as classes de *dashboard*.  
+   - Verificação de aderência ao princípio de responsabilidade única, visando manter o *Singleton* restrito ao armazenamento e manipulação de dados compartilhados.
+
+3. **Implementação em Python**  
+   - Criação de uma classe **EstatisticasGlobais** que segue o padrão *Singleton*, garantindo a existência de apenas uma instância com dados globais.  
+   - Configuração de testes e estudos de caso para verificar a consistência das métricas em diferentes *dashboards*.
+
+4. **Integração com MVC e Aplicação de SOLID**  
+   - Adoção de uma **arquitetura MVC** simplificada, na qual a classe *Singleton* se comporta como parte do *Model*, centralizando as informações compartilhadas.  
+   - Validação do alinhamento aos princípios de *SOLID*, assegurando que cada componente (por exemplo, *Controllers* e *Views*) mantenha atribuições bem definidas e que a classe *Singleton* não se sobrecarregue de responsabilidades.
+
+5. **Validação e Análise**  
+   - Realização de revisões em pares e testes funcionais para avaliar a implementação do padrão *Singleton*, observando vantagens e possíveis limitações.  
+   - Documentação das lições aprendidas, destacando boas práticas no uso do *Singleton* e reflexões sobre como ele se insere em arquiteturas mais amplas, como *Clean Architecture*.
+
+Por meio dessa metodologia, buscou-se demonstrar o ciclo completo de **pesquisa, modelagem, implementação e validação** do padrão *Singleton*, bem como refletir sobre sua aplicação prática em projetos de software que envolvem o gerenciamento de informações globais de forma consistente e escalável.
 
 ### **2.1 Aplique a metodologia que deseja utilizar**
 
@@ -103,4 +126,4 @@ Sendo assim, o *Singleton* não deve ser empregado de forma indiscriminada: em p
 | `1.0`   | 04/01/2025 | 05/01/2025      | Criação do diagrama UML.                        | [Ana Carolina](https://github.com/CarolCoCe), [Felipe de Oliveira](https://github.com/M0tt1nh4), [Giovanni Alvissus](https://github.com/giovanniacg), [João Artur](https://github.com/joao-artl) | [Eric Silveira](https://github.com/ericbky) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
 | `1.1`   | 04/01/2025 | 05/01/2025      | Implementação do código de demonstração.           | [Arthur Alves](https://github.com/Arthrok), [Diego Sousa](https://github.com/DiegoSousaLeite), [Julio Cesar](https://github.com/julio-dourado), [Paulo Henrique](https://github.com/paulomh) | [Eric Silveira](https://github.com/ericbky)  | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
 | `1.2`   | 05/01/2025 | 05/01/2025      | Documentação do padrão Singleton.                | [Eric Silveira](https://github.com/ericbky)              |[Gustavo Melo](https://github.com/gusrberto) | [#7](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/pull/7)|
-
+| `1.3`   | 05/01/2025 | - | Refinamento da metodologia | [Giovanni Alvissus](https://github.com/giovanniacg) | - | - |
