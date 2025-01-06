@@ -126,6 +126,8 @@ A implementação do padrão Multiton na classe `Ranking` demonstra uma aplicaç
 
 > 3. Python Software Foundation. (n.d.). *Python Documentation*. Disponível em: [https://docs.python.org/](https://docs.python.org/). Acesso em: 03 jan. 2025.
 
+> 4. Código Multiton, Squad 1. Disponível em: [Código](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/blob/main/src/criacionais/multiton-ranking.py)
+
 ## **Histórico de Versão**
 
 | Versão | Data       | Data de Revisão | Descrição do Documento                         | Autor(es)                                                | Revisor(es)                                       | Detalhes da revisão                                                                                         |

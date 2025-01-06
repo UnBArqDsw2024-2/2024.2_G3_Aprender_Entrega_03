@@ -119,6 +119,8 @@ Sendo assim, o *Singleton* não deve ser empregado de forma indiscriminada: em p
 - <a id="REF4" href="#anchor_4">4.</a> Refactoring Guru. Singleton. Disponível em: [https://refactoring.guru/pt-br/design-patterns/singleton](https://refactoring.guru/pt-br/design-patterns/singleton). Acesso em: 05 jan. 2025.
 - <a id="REF5" href="#anchor_5">5.</a> AWS. What is a Log File? - Log Files Explained. Disponível em: [https://aws.amazon.com/what-is/log-files/](https://aws.amazon.com/what-is/log-files/). Acesso em: 05 jan. 2025.
 
+- <a id="REF5" href="#anchor_5">6.</a> Código Singleton, Squad 1. Disponível em: [Código](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/blob/main/src/criacionais/singleton-dashboard-estatisticaglobal.py)
+
 ## **Histórico de Versão**
 
 | Versão | Data       | Data de Revisão | Descrição do Documento                         | Autor(es)                                                | Revisor(es)                                       | Detalhes da revisão                                                                                         |

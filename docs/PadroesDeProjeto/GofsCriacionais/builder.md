@@ -116,6 +116,7 @@ O uso do padrão de projeto Builder no BuilderSimulador provou ser uma decisão 
 - Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1995). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 - Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
 - Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall.
+- Código Builder, Squad 1. Disponível em: [Código](https://github.com/UnBArqDsw2024-2/2024.2_G3_Aprender_Entrega_03/blob/main/src/criacionais/builder-simulado.py)
 
 ## **Histórico de Versão**
 
